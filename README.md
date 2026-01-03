@@ -6,6 +6,26 @@ Open research datasets maintained by Klub Fisika Indonesia for academic and rese
 
 Database komprehensif institusi pendidikan di Daerah Istimewa Yogyakarta dengan coverage 100% geografis dan kelengkapan data yang tervalidasi.
 
+**536 institusi pendidikan** tersebar di **78 kecamatan/kemantren** across **5 kabupaten/kota**
+
+## 🏆 Competitions Dataset (Indonesia)
+
+Comprehensive database of physics, robotics, and rocket competitions across Indonesia covering national, regional, and international levels.
+
+**Categories covered:**
+- 🤖 **Robotics** - KRI, KRCI, KRSBI, regional competitions
+- 🚀 **Rocket** - KOMURINDO, water rocket, model rocket competitions  
+- 🔬 **Physics Olympiad** - OSN, OFI, IPhO selection process
+- 📚 **Research** - PIMNAS, scientific writing competitions
+- 🛠️ **Maker** - Innovation and technology competitions
+
+### Quick Access:
+```bash
+curl https://klubfisika.github.io/datasets/competitions-indonesia.json
+```
+
+Database komprehensif institusi pendidikan di Daerah Istimewa Yogyakarta dengan coverage 100% geografis dan kelengkapan data yang tervalidasi.
+
 ## 📊 Overview
 
 **536 institusi pendidikan** tersebar di **78 kecamatan/kemantren** across **5 kabupaten/kota**

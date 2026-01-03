@@ -1,0 +1,165 @@
+{
+  "robotics": {
+    "national": [
+      {
+        "name": "Kontes Robot Indonesia (KRI)",
+        "organizer": "Kementerian Pendidikan",
+        "categories": ["KRI", "KRCI", "KRSBI"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "rotating_cities",
+        "registration_period": "February-April",
+        "competition_period": "June-August",
+        "website": "https://kri.kemdikbud.go.id",
+        "teams_limit": 200,
+        "prize_pool": "500000000"
+      },
+      {
+        "name": "Kontes Robot Cerdas Indonesia (KRCI)",
+        "organizer": "Kementerian Pendidikan",
+        "categories": ["Fire Fighting", "Line Following", "Soccer"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "integrated_with_kri",
+        "registration_period": "February-April",
+        "competition_period": "June-August",
+        "website": "https://kri.kemdikbud.go.id",
+        "teams_limit": 150,
+        "prize_pool": "300000000"
+      }
+    ],
+    "regional": [
+      {
+        "name": "Kompetisi Robot Regional Jawa",
+        "organizer": "Various Universities",
+        "categories": ["Line Following", "Sumo", "Soccer"],
+        "level": "regional",
+        "frequency": "annual",
+        "venue": "rotating_universities",
+        "registration_period": "March-May",
+        "competition_period": "July-September",
+        "teams_limit": 100,
+        "prize_pool": "50000000"
+      }
+    ]
+  },
+  "rocket": {
+    "national": [
+      {
+        "name": "Kompetisi Muatan Roket Indonesia (KOMURINDO)",
+        "organizer": "LAPAN/BRIN",
+        "categories": ["Payload", "Cansat", "Water Rocket"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "Pameungpeuk, Garut",
+        "registration_period": "April-June",
+        "competition_period": "August-September",
+        "website": "https://komurindo.lapan.go.id",
+        "teams_limit": 80,
+        "prize_pool": "400000000"
+      }
+    ],
+    "regional": [
+      {
+        "name": "Regional Rocket Competition",
+        "organizer": "Regional Universities",
+        "categories": ["Water Rocket", "Model Rocket"],
+        "level": "regional",
+        "frequency": "annual",
+        "venue": "various_locations",
+        "registration_period": "May-July",
+        "competition_period": "September-October",
+        "teams_limit": 50,
+        "prize_pool": "25000000"
+      }
+    ]
+  },
+  "physics_olympiad": {
+    "national": [
+      {
+        "name": "Olimpiade Sains Nasional (OSN) Fisika",
+        "organizer": "Kementerian Pendidikan",
+        "categories": ["SMA", "SMP"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "rotating_provinces",
+        "registration_period": "January-March",
+        "competition_period": "July-August",
+        "website": "https://osn.kemdikbud.go.id",
+        "participants_limit": 100,
+        "prize_pool": "200000000"
+      },
+      {
+        "name": "Olimpiade Fisika Indonesia (OFI)",
+        "organizer": "Himpunan Fisika Indonesia",
+        "categories": ["University Level"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "rotating_universities",
+        "registration_period": "February-April",
+        "competition_period": "June-July",
+        "participants_limit": 200,
+        "prize_pool": "150000000"
+      }
+    ],
+    "international": [
+      {
+        "name": "International Physics Olympiad (IPhO)",
+        "organizer": "International Physics Olympiad Committee",
+        "categories": ["High School"],
+        "level": "international",
+        "frequency": "annual",
+        "venue": "rotating_countries",
+        "selection_process": "OSN_winners",
+        "team_size": 5,
+        "website": "https://www.ipho-new.org"
+      }
+    ]
+  },
+  "research_competitions": {
+    "national": [
+      {
+        "name": "Pekan Ilmiah Mahasiswa Nasional (PIMNAS)",
+        "organizer": "Kementerian Pendidikan",
+        "categories": ["PKM-P", "PKM-T", "PKM-K", "PKM-M"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "rotating_universities",
+        "registration_period": "January-May",
+        "competition_period": "August-September",
+        "website": "https://pimnas.kemdikbud.go.id",
+        "teams_limit": 500,
+        "prize_pool": "1000000000"
+      },
+      {
+        "name": "Lomba Karya Tulis Ilmiah Nasional",
+        "organizer": "Various Universities",
+        "categories": ["Physics Research", "Applied Physics"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "various_universities",
+        "registration_period": "March-June",
+        "competition_period": "August-October",
+        "teams_limit": 200,
+        "prize_pool": "100000000"
+      }
+    ]
+  },
+  "maker_competitions": {
+    "national": [
+      {
+        "name": "Indonesia Science Expo (ISE)",
+        "organizer": "LIPI/BRIN",
+        "categories": ["Innovation", "Technology", "Research"],
+        "level": "national",
+        "frequency": "annual",
+        "venue": "Jakarta",
+        "registration_period": "April-July",
+        "competition_period": "September-October",
+        "website": "https://ise.lipi.go.id",
+        "participants_limit": 300,
+        "prize_pool": "500000000"
+      }
+    ]
+  }
+}
