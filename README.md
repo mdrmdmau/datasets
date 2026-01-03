@@ -24,6 +24,37 @@ Comprehensive database of physics, robotics, and rocket competitions across Indo
 curl https://klubfisika.github.io/datasets/competitions-indonesia.json
 ```
 
+## 🎓 Physics Programs Dataset (Indonesia)
+
+Comprehensive mapping of physics degree programs across Indonesian universities, covering public and private institutions nationwide.
+
+**Coverage:**
+- 🏛️ **15+ Universities** - Major public and private institutions
+- 📚 **Program Levels** - S1, S2, S3 physics programs
+- 🎯 **Specializations** - Material physics, geophysics, medical physics, etc.
+- 🏆 **Accreditation** - A, B, C accreditation status
+- 🔬 **Research Groups** - Active research areas and facilities
+
+### Quick Access:
+```bash
+curl https://klubfisika.github.io/datasets/physics-programs.json
+```
+
+## 🛠️ Equipment & Suppliers Dataset (Indonesia)
+
+Complete database of components, equipment, and suppliers for robotics, rocket, and physics lab projects.
+
+**Categories:**
+- 🤖 **Electronics** - Microcontrollers, sensors, motors for robotics
+- 🚀 **Rocket Components** - Propellants, recovery systems, airframes
+- 🔬 **Lab Equipment** - Measurement instruments, testing tools
+- 🏪 **Suppliers Directory** - Online marketplaces and specialized stores
+
+### Quick Access:
+```bash
+curl https://klubfisika.github.io/datasets/equipment-suppliers.json
+```
+
 Database komprehensif institusi pendidikan di Daerah Istimewa Yogyakarta dengan coverage 100% geografis dan kelengkapan data yang tervalidasi.
 
 ## 📊 Overview

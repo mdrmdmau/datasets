@@ -1,0 +1,238 @@
+{
+  "public_universities": {
+    "jawa": [
+      {
+        "name": "Universitas Indonesia",
+        "location": "Depok, Jawa Barat",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "A",
+            "capacity": 120,
+            "specializations": ["Fisika Teoretis", "Fisika Material", "Biofisika", "Geofisika"],
+            "research_groups": ["Fisika Nuklir", "Fisika Plasma", "Fisika Medis"],
+            "facilities": ["Lab Fisika Dasar", "Lab Material", "Lab Komputasi"]
+          },
+          "s2_fisika": {
+            "name": "Magister Fisika",
+            "accreditation": "A",
+            "capacity": 40,
+            "specializations": ["Fisika Teoretis", "Fisika Eksperimental"]
+          },
+          "s3_fisika": {
+            "name": "Doktor Fisika",
+            "accreditation": "A",
+            "capacity": 15
+          }
+        },
+        "website": "https://fisika.ui.ac.id"
+      },
+      {
+        "name": "Institut Teknologi Bandung",
+        "location": "Bandung, Jawa Barat",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "A",
+            "capacity": 150,
+            "specializations": ["Fisika Teoretis", "Fisika Material", "Fisika Nuklir", "Astronomi"],
+            "research_groups": ["Fisika Teoretis Energi Tinggi", "Material Maju", "Instrumentasi"],
+            "facilities": ["Lab Fisika Dasar", "Lab Material", "Observatorium Bosscha"]
+          },
+          "s2_fisika": {
+            "name": "Magister Fisika",
+            "accreditation": "A",
+            "capacity": 50
+          },
+          "s3_fisika": {
+            "name": "Doktor Fisika",
+            "accreditation": "A",
+            "capacity": 20
+          }
+        },
+        "website": "https://fi.itb.ac.id"
+      },
+      {
+        "name": "Universitas Gadjah Mada",
+        "location": "Yogyakarta",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "A",
+            "capacity": 100,
+            "specializations": ["Fisika Material", "Geofisika", "Fisika Medis", "Instrumentasi"],
+            "research_groups": ["Fisika Material", "Geofisika", "Fisika Nuklir"],
+            "facilities": ["Lab Fisika Dasar", "Lab Geofisika", "Lab Instrumentasi"]
+          },
+          "s1_geofisika": {
+            "name": "Geofisika",
+            "accreditation": "A",
+            "capacity": 60,
+            "specializations": ["Seismologi", "Eksplorasi", "Meteorologi"]
+          }
+        },
+        "website": "https://fisika.ugm.ac.id"
+      },
+      {
+        "name": "Universitas Diponegoro",
+        "location": "Semarang, Jawa Tengah",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "A",
+            "capacity": 80,
+            "specializations": ["Fisika Material", "Fisika Medis", "Geofisika"],
+            "research_groups": ["Material Science", "Medical Physics"],
+            "facilities": ["Lab Fisika Dasar", "Lab Material", "Lab Medis"]
+          }
+        },
+        "website": "https://fisika.undip.ac.id"
+      },
+      {
+        "name": "Universitas Airlangga",
+        "location": "Surabaya, Jawa Timur",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "A",
+            "capacity": 70,
+            "specializations": ["Fisika Material", "Biofisika", "Fisika Medis"],
+            "research_groups": ["Biophysics", "Medical Physics"],
+            "facilities": ["Lab Fisika Dasar", "Lab Biofisika"]
+          }
+        },
+        "website": "https://fisika.unair.ac.id"
+      }
+    ],
+    "sumatra": [
+      {
+        "name": "Universitas Sumatera Utara",
+        "location": "Medan, Sumatera Utara",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "B",
+            "capacity": 60,
+            "specializations": ["Fisika Material", "Geofisika"],
+            "research_groups": ["Material Physics"],
+            "facilities": ["Lab Fisika Dasar", "Lab Material"]
+          }
+        },
+        "website": "https://fisika.usu.ac.id"
+      },
+      {
+        "name": "Universitas Andalas",
+        "location": "Padang, Sumatera Barat",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "B",
+            "capacity": 50,
+            "specializations": ["Fisika Material", "Geofisika"],
+            "research_groups": ["Geophysics"],
+            "facilities": ["Lab Fisika Dasar", "Lab Geofisika"]
+          }
+        },
+        "website": "https://fisika.unand.ac.id"
+      }
+    ],
+    "kalimantan": [
+      {
+        "name": "Universitas Lambung Mangkurat",
+        "location": "Banjarmasin, Kalimantan Selatan",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "B",
+            "capacity": 40,
+            "specializations": ["Fisika Material", "Geofisika"],
+            "facilities": ["Lab Fisika Dasar"]
+          }
+        },
+        "website": "https://fisika.ulm.ac.id"
+      }
+    ],
+    "sulawesi": [
+      {
+        "name": "Universitas Hasanuddin",
+        "location": "Makassar, Sulawesi Selatan",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "A",
+            "capacity": 60,
+            "specializations": ["Fisika Material", "Geofisika", "Fisika Medis"],
+            "research_groups": ["Material Science"],
+            "facilities": ["Lab Fisika Dasar", "Lab Material"]
+          }
+        },
+        "website": "https://fisika.unhas.ac.id"
+      }
+    ],
+    "papua": [
+      {
+        "name": "Universitas Cenderawasih",
+        "location": "Jayapura, Papua",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "C",
+            "capacity": 30,
+            "specializations": ["Fisika Dasar"],
+            "facilities": ["Lab Fisika Dasar"]
+          }
+        },
+        "website": "https://fisika.uncen.ac.id"
+      }
+    ]
+  },
+  "private_universities": {
+    "jawa": [
+      {
+        "name": "Universitas Kristen Satya Wacana",
+        "location": "Salatiga, Jawa Tengah",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "B",
+            "capacity": 40,
+            "specializations": ["Fisika Komputasi", "Fisika Material"],
+            "facilities": ["Lab Fisika Dasar", "Lab Komputasi"]
+          }
+        },
+        "website": "https://fisika.uksw.edu"
+      },
+      {
+        "name": "Universitas Sanata Dharma",
+        "location": "Yogyakarta",
+        "programs": {
+          "s1_fisika": {
+            "name": "Fisika",
+            "accreditation": "B",
+            "capacity": 35,
+            "specializations": ["Fisika Pendidikan", "Fisika Terapan"],
+            "facilities": ["Lab Fisika Dasar", "Lab Pendidikan"]
+          }
+        },
+        "website": "https://fisika.usd.ac.id"
+      }
+    ]
+  },
+  "statistics": {
+    "total_programs": 15,
+    "total_capacity_s1": 905,
+    "accreditation_distribution": {
+      "A": 8,
+      "B": 6,
+      "C": 1
+    },
+    "specialization_popularity": {
+      "Fisika Material": 12,
+      "Geofisika": 8,
+      "Fisika Medis": 5,
+      "Biofisika": 3,
+      "Fisika Teoretis": 3,
+      "Instrumentasi": 2
+    }
+  }
+}

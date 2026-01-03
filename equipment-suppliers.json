@@ -1,0 +1,273 @@
+{
+  "electronics": {
+    "microcontrollers": [
+      {
+        "name": "Arduino Uno R3",
+        "category": "microcontroller",
+        "price_range": "150000-200000",
+        "suppliers": [
+          {
+            "name": "Tokopedia Electronics",
+            "location": "online",
+            "rating": 4.8,
+            "stock_status": "available"
+          },
+          {
+            "name": "Shopee Robotics",
+            "location": "online", 
+            "rating": 4.7,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "voltage": "5V",
+          "digital_pins": 14,
+          "analog_pins": 6,
+          "flash_memory": "32KB"
+        },
+        "applications": ["robotics", "automation", "prototyping"]
+      },
+      {
+        "name": "ESP32 DevKit",
+        "category": "microcontroller",
+        "price_range": "80000-120000",
+        "suppliers": [
+          {
+            "name": "Bukalapak Tech",
+            "location": "online",
+            "rating": 4.6,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "voltage": "3.3V",
+          "wifi": true,
+          "bluetooth": true,
+          "gpio_pins": 30
+        },
+        "applications": ["iot", "wireless_robotics", "data_logging"]
+      }
+    ],
+    "sensors": [
+      {
+        "name": "Ultrasonic Sensor HC-SR04",
+        "category": "distance_sensor",
+        "price_range": "15000-25000",
+        "suppliers": [
+          {
+            "name": "Robotics Store Jakarta",
+            "location": "Jakarta",
+            "rating": 4.9,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "range": "2cm-400cm",
+          "accuracy": "3mm",
+          "voltage": "5V"
+        },
+        "applications": ["obstacle_avoidance", "distance_measurement"]
+      },
+      {
+        "name": "MPU6050 Gyroscope",
+        "category": "motion_sensor",
+        "price_range": "25000-40000",
+        "suppliers": [
+          {
+            "name": "Sensor Indonesia",
+            "location": "Bandung",
+            "rating": 4.7,
+            "stock_status": "limited"
+          }
+        ],
+        "specifications": {
+          "axes": 6,
+          "gyro_range": "±250°/s to ±2000°/s",
+          "accel_range": "±2g to ±16g"
+        },
+        "applications": ["balance_control", "navigation", "stabilization"]
+      }
+    ],
+    "motors": [
+      {
+        "name": "Servo Motor SG90",
+        "category": "servo_motor",
+        "price_range": "20000-35000",
+        "suppliers": [
+          {
+            "name": "Motor Robotics",
+            "location": "Surabaya",
+            "rating": 4.8,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "torque": "1.8kg/cm",
+          "speed": "0.1s/60°",
+          "voltage": "4.8V-6V"
+        },
+        "applications": ["robot_joints", "camera_gimbal", "steering"]
+      }
+    ]
+  },
+  "rocket_components": {
+    "propellants": [
+      {
+        "name": "Potassium Nitrate (KNO3)",
+        "category": "oxidizer",
+        "price_range": "50000-80000",
+        "unit": "per kg",
+        "suppliers": [
+          {
+            "name": "Chemical Supply Jakarta",
+            "location": "Jakarta",
+            "rating": 4.5,
+            "license_required": true,
+            "stock_status": "available"
+          }
+        ],
+        "safety_class": "oxidizer",
+        "applications": ["solid_propellant", "pyrotechnics"],
+        "regulations": "requires_permit"
+      },
+      {
+        "name": "Sorbitol",
+        "category": "fuel",
+        "price_range": "30000-50000",
+        "unit": "per kg",
+        "suppliers": [
+          {
+            "name": "Food Grade Chemicals",
+            "location": "Bandung",
+            "rating": 4.6,
+            "license_required": false,
+            "stock_status": "available"
+          }
+        ],
+        "safety_class": "fuel",
+        "applications": ["solid_propellant", "sugar_rockets"]
+      }
+    ],
+    "recovery_systems": [
+      {
+        "name": "Parachute 18 inch",
+        "category": "recovery",
+        "price_range": "100000-150000",
+        "suppliers": [
+          {
+            "name": "Aerospace Components",
+            "location": "Yogyakarta",
+            "rating": 4.7,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "diameter": "18 inch",
+          "material": "ripstop_nylon",
+          "max_weight": "2kg"
+        },
+        "applications": ["model_rockets", "payload_recovery"]
+      }
+    ],
+    "tubes_and_casings": [
+      {
+        "name": "Cardboard Tube 3 inch",
+        "category": "airframe",
+        "price_range": "25000-40000",
+        "unit": "per meter",
+        "suppliers": [
+          {
+            "name": "Rocket Supplies Indonesia",
+            "location": "Jakarta",
+            "rating": 4.8,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "diameter": "3 inch",
+          "wall_thickness": "3mm",
+          "material": "cardboard"
+        },
+        "applications": ["model_rockets", "payload_bay"]
+      }
+    ]
+  },
+  "lab_equipment": {
+    "measurement": [
+      {
+        "name": "Digital Multimeter",
+        "category": "measurement",
+        "price_range": "200000-500000",
+        "suppliers": [
+          {
+            "name": "Lab Equipment Indonesia",
+            "location": "Jakarta",
+            "rating": 4.9,
+            "stock_status": "available"
+          }
+        ],
+        "specifications": {
+          "voltage_range": "0-1000V",
+          "current_range": "0-10A",
+          "resistance_range": "0-40MΩ"
+        },
+        "applications": ["circuit_testing", "component_verification"]
+      },
+      {
+        "name": "Oscilloscope 2-Channel",
+        "category": "measurement",
+        "price_range": "2000000-5000000",
+        "suppliers": [
+          {
+            "name": "Scientific Instruments",
+            "location": "Bandung",
+            "rating": 4.8,
+            "stock_status": "limited"
+          }
+        ],
+        "specifications": {
+          "channels": 2,
+          "bandwidth": "100MHz",
+          "sample_rate": "1GSa/s"
+        },
+        "applications": ["signal_analysis", "circuit_debugging"]
+      }
+    ]
+  },
+  "suppliers_directory": {
+    "online_marketplaces": [
+      {
+        "name": "Tokopedia",
+        "category": "general",
+        "specialties": ["electronics", "components"],
+        "coverage": "nationwide",
+        "payment_methods": ["bank_transfer", "e_wallet", "cod"]
+      },
+      {
+        "name": "Shopee",
+        "category": "general", 
+        "specialties": ["electronics", "tools"],
+        "coverage": "nationwide",
+        "payment_methods": ["bank_transfer", "e_wallet", "cod"]
+      }
+    ],
+    "specialized_stores": [
+      {
+        "name": "Robotics Store Jakarta",
+        "category": "robotics",
+        "location": "Jakarta",
+        "specialties": ["arduino", "sensors", "motors"],
+        "contact": "robotics@jakarta.com",
+        "bulk_discount": true
+      },
+      {
+        "name": "Aerospace Components",
+        "category": "rocket",
+        "location": "Yogyakarta",
+        "specialties": ["recovery_systems", "airframes"],
+        "contact": "aerospace@yogya.com",
+        "custom_orders": true
+      }
+    ]
+  }
+}
