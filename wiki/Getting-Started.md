@@ -8,15 +8,15 @@ Welcome to the KF13 Datasets community! This guide will help you get up and runn
 **Goal:** Learn about physics opportunities and use data for projects
 
 **Quick Start:**
-1. **Explore Competitions** - Check `competitions-indonesia.json` for upcoming events
-2. **Find Universities** - Browse `physics-programs.json` for program options
+1. **Explore Competitions** - Check `v1/competitions-indonesia.json` for upcoming events
+2. **Find Universities** - Browse `v1/physics-programs.json` for program options
 3. **Connect with Community** - Join discussions and ask questions
 4. **Start Small** - Use simple datasets for school projects
 
 **First Conversation:**
 ```
 "Saya siswa SMA kelas XII yang tertarik fisika dan ingin ikut kompetisi. 
-Tolong jelaskan dataset competitions-indonesia.json dengan bahasa sederhana 
+Tolong jelaskan dataset v1/competitions-indonesia.json dengan bahasa sederhana 
 dan berikan tips persiapan untuk KSN Fisika."
 ```
 
@@ -25,14 +25,14 @@ dan berikan tips persiapan untuk KSN Fisika."
 
 **Quick Start:**
 1. **Review Institution Data** - Understand educational landscape
-2. **Explore Teacher Networks** - Connect with `physics-teachers.json`
-3. **Find Events** - Discover professional development in `science-events.json`
+2. **Explore Teacher Networks** - Connect with `v1/physics-teachers.json`
+3. **Find Events** - Discover professional development in `v1/science-events.json`
 4. **Integrate in Curriculum** - Use datasets for student projects
 
 **First Conversation:**
 ```
 "Saya guru fisika SMA yang ingin meningkatkan kualitas pembelajaran. 
-Tolong analisis dataset institutions-diy.json dan berikan insights 
+Tolong analisis dataset v1/institutions-diy.json dan berikan insights 
 untuk networking dengan sekolah lain dan best practices."
 ```
 
@@ -102,15 +102,15 @@ cd /path/to/datasets
 ### **Alternative Access Methods**
 ```bash
 # Direct dataset access via curl
-curl https://klubfisika.github.io/datasets/institutions-diy.json
+curl https://klubfisika.github.io/datasets/v1/institutions-diy.json
 
 # Python access
 pip install requests pandas
-python -c "import requests; print(requests.get('https://klubfisika.github.io/datasets/competitions-indonesia.json').json())"
+python -c "import requests; print(requests.get('https://klubfisika.github.io/datasets/v1/competitions-indonesia.json').json())"
 
 # JavaScript/Node.js
 npm install axios
-node -e "const axios = require('axios'); axios.get('https://klubfisika.github.io/datasets/physics-programs.json').then(r => console.log(r.data))"
+node -e "const axios = require('axios'); axios.get('https://klubfisika.github.io/datasets/v1/physics-programs.json').then(r => console.log(r.data))"
 ```
 
 ## 📚 **Learning Resources**

@@ -24,7 +24,7 @@ cd /path/to/datasets
 ### **Basic Research Session**
 ```
 "Load research mapping framework dan bantu saya menganalisis 
-dataset institutions-diy.json untuk memahami distribusi pendidikan fisika. 
+dataset v1/institutions-diy.json untuk memahami distribusi pendidikan fisika. 
 Background saya: [mahasiswa S2/peneliti/policy maker]"
 ```
 
@@ -121,7 +121,7 @@ Apply to: [RESEARCH QUESTION]
 
 **Example Steering:**
 ```
-"Analyze institutions-diy.json using quantitative methods. 
+"Analyze v1/institutions-diy.json using quantitative methods. 
 Calculate distribution metrics, identify clustering patterns, 
 and test for geographic correlation with competition performance data."
 ```
@@ -154,7 +154,7 @@ participant experiences and teacher perspectives."
 
 ### **Educational Equity Analysis**
 **Objective:** Assess accessibility and fairness in physics education
-**Datasets:** institutions-diy.json, competitions-indonesia.json
+**Datasets:** v1/institutions-diy.json, v1/competitions-indonesia.json
 **Methods:** Geographic analysis, demographic correlation, access modeling
 
 **Steering Template:**
@@ -166,7 +166,7 @@ and accessibility barriers. Provide policy recommendations."
 
 ### **Performance Optimization**
 **Objective:** Identify factors for competition and academic success
-**Datasets:** competitions-indonesia.json, physics-programs.json
+**Datasets:** v1/competitions-indonesia.json, v1/physics-programs.json
 **Methods:** Performance correlation, success factor analysis, predictive modeling
 
 **Steering Template:**
@@ -178,7 +178,7 @@ support. Develop optimization recommendations."
 
 ### **Collaboration Network Analysis**
 **Objective:** Map and strengthen research partnerships
-**Datasets:** research-labs.json, collaboration-networks.json
+**Datasets:** v1/research-labs.json, v1/collaboration-networks.json
 **Methods:** Network analysis, partnership mapping, opportunity identification
 
 **Steering Template:**
