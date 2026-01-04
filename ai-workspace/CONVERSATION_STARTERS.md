@@ -69,19 +69,19 @@ Tujuan: [research goal spesifik]"
 
 ### **Institutions Dataset**
 ```
-"Analisis institutions-diy.json untuk memahami [distribusi geografis/akses pendidikan/gaps]. 
+"Analisis v1/institutions-diy.json untuk memahami [distribusi geografis/akses pendidikan/gaps]. 
 Level analisis: [overview/detailed/statistical]"
 ```
 
 ### **Competitions Dataset**  
 ```
-"Explore competitions-indonesia.json untuk [persiapan kompetisi/trend analysis/success factors]. 
+"Explore v1/competitions-indonesia.json untuk [persiapan kompetisi/trend analysis/success factors]. 
 Fokus pada [KSN/Robotika/Roket/semua kategori]"
 ```
 
 ### **Physics Programs Dataset**
 ```
-"Review physics-programs.json untuk [pemilihan universitas/program comparison/career planning]. 
+"Review v1/physics-programs.json untuk [pemilihan universitas/program comparison/career planning]. 
 Background: [calon mahasiswa/researcher/counselor]"
 ```
 
@@ -116,7 +116,7 @@ untuk fokus pada [aspek berbeda dari analisis]"
 
 ### **Start Simple, Go Deep**
 ```
-1. "Jelaskan dataset competitions-indonesia.json secara overview"
+1. "Jelaskan dataset v1/competitions-indonesia.json secara overview"
 2. "Sekarang fokus pada kompetisi robotika saja"  
 3. "Analisis trend performance tim dari DIY"
 4. "Berikan recommendations untuk improvement"

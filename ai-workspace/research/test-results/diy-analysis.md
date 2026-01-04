@@ -21,8 +21,8 @@
 ### DATA ECOSYSTEM MAPPING
 
 **Data Inventory:**
-- ✅ **Primary:** institutions-diy.json (536 entries)
-- ✅ **Secondary:** competitions-indonesia.json, physics-programs.json
+- ✅ **Primary:** v1/institutions-diy.json (536 entries)
+- ✅ **Secondary:** v1/competitions-indonesia.json, v1/physics-programs.json
 - ❌ **Missing:** Enrollment data, teacher qualifications, facilities
 
 **Data Quality Assessment:**
