@@ -1,0 +1,147 @@
+#!/bin/bash
+# KF13 All-in-One Command - Complete Chat & Dataset Management
+# Usage: !./kf13 [command] [options]
+
+set -euo pipefail  # Better error handling
+
+readonly CHAT_DIR="ai-workspace/chat-history/kiro-cli"
+readonly CURRENT_MONTH=$(date +%Y-%m)
+readonly CURRENT_DATE=$(date +%Y-%m-%d)
+
+# Helper functions
+show_sessions() {
+    if ! find "$CHAT_DIR" -name "*.chat" -type f 2>/dev/null | grep -q .; then
+        echo "No chat sessions found"
+        return
+    fi
+    
+    find "$CHAT_DIR" -name "*.chat" -type f 2>/dev/null | sort -r | while read -r f; do
+        local b d t s d_short
+        b=$(basename "$f")
+        d=${b%_*}
+        t=${b#*_}; t=${t%.chat}
+        s=$(du -h "$f" 2>/dev/null | cut -f1)
+        d_short=${d#*-}  # Remove year (2026-01-03 -> 01-03)
+        
+        echo "📅 $d_short | $s | ${t//-/ }"
+        echo "   /load $f"
+        echo
+    done
+}
+
+show_datasets() {
+    local count=0
+    for f in *.json; do
+        [ -f "$f" ] || continue
+        local s e n
+        s=$(du -h "$f" 2>/dev/null | cut -f1)
+        e=$(jq '. | length' "$f" 2>/dev/null || echo "?")
+        n=${f%.json}; n=${n//-/ }
+        echo "📊 $n ($s, $e entries)"
+        ((count++))
+    done
+    [ $count -eq 0 ] && echo "No datasets found"
+}
+
+handle_save() {
+    local topic="" force_overwrite=false
+    
+    # Parse arguments
+    for arg in "$@"; do
+        case $arg in
+            -f|--force) force_overwrite=true ;;
+            -*) echo "❌ Unknown flag: $arg"; exit 1 ;;
+            *) [ -z "$topic" ] && topic="$arg" ;;
+        esac
+    done
+    
+    # Set default topic
+    [ -z "$topic" ] && topic="session"
+    
+    # Validate topic (no special chars)
+    if [[ ! "$topic" =~ ^[a-zA-Z0-9_-]+$ ]]; then
+        echo "❌ Invalid topic. Use only letters, numbers, hyphens, and underscores"
+        exit 1
+    fi
+    
+    # Generate paths
+    local target_dir="$CHAT_DIR/$CURRENT_MONTH"
+    local filename="${CURRENT_DATE}_${topic}.chat"
+    local full_path="$target_dir/$filename"
+    
+    # Create directory
+    mkdir -p "$target_dir"
+    
+    # Check existing file
+    if [ -f "$full_path" ] && [ "$force_overwrite" = false ]; then
+        echo "⚠️  File already exists: $filename"
+        echo
+        echo "🔍 Existing file info:"
+        ls -lh "$full_path" | awk '{print "   Size: " $5 "   Modified: " $6 " " $7 " " $8}'
+        echo
+        echo "💡 Options:"
+        echo "   1. Different topic: !./kf13 save ${topic}-v2"
+        echo "   2. Force overwrite: !./kf13 save $topic -f"
+        echo "   3. Check existing: !./kf13 sessions"
+        exit 1
+    fi
+    
+    # Show save command
+    echo "💾 KF13 Auto-Save Ready!"
+    echo "📁 Target: $full_path"
+    echo
+    echo "🚀 Execute in Kiro CLI:"
+    if [ "$force_overwrite" = true ]; then
+        echo "/save $full_path -f"
+        echo
+        echo "⚠️  OVERWRITE MODE: Will replace existing file"
+    else
+        echo "/save $full_path"
+    fi
+    echo
+    echo "✅ Auto-organized location | 📋 No manual 'mv' needed"
+}
+
+# Main command dispatcher
+case "${1:-help}" in
+    "latest"|"l")
+        latest=$(find "$CHAT_DIR" -name "*.chat" -type f 2>/dev/null | sort -r | head -1)
+        [ -n "$latest" ] && echo "/load $latest" || echo "No sessions found"
+        ;;
+    "sessions"|"s")
+        show_sessions
+        ;;
+    "datasets"|"d")
+        show_datasets
+        ;;
+    "status"|"st")
+        local dataset_count session_count
+        dataset_count=$(ls *.json 2>/dev/null | wc -l)
+        session_count=$(find "$CHAT_DIR" -name "*.chat" 2>/dev/null | wc -l)
+        echo "📊 KF13: $dataset_count datasets, $session_count sessions"
+        git log --oneline -3 2>/dev/null | head -3 || echo "No git history"
+        ;;
+    "save"|"sv")
+        shift
+        handle_save "$@"
+        ;;
+    "help"|"h")
+        echo "🚀 KF13 Commands:"
+        echo "!./kf13 latest     (l)  - Get latest session load command"
+        echo "!./kf13 sessions   (s)  - List all chat sessions"  
+        echo "!./kf13 datasets   (d)  - List available datasets"
+        echo "!./kf13 status     (st) - Repository status overview"
+        echo "!./kf13 save       (sv) - Auto-save chat with organization"
+        echo "!./kf13 help       (h)  - Show this help"
+        echo
+        echo "💾 Save Examples:"
+        echo "!./kf13 save research-topic    - Save with custom topic"
+        echo "!./kf13 save                   - Save with default topic"
+        echo "!./kf13 save topic -f          - Force overwrite existing"
+        ;;
+    *)
+        echo "❌ Unknown command: $1"
+        echo "💡 Try: !./kf13 help"
+        exit 1
+        ;;
+esac
